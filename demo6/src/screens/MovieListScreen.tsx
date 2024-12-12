@@ -26,7 +26,7 @@ export default function MovieListScreen() {
         onEndReachedThreshold={0.5}
         ListFooterComponent={loading ? <ActivityIndicator size="large" color="#0000ff" /> : null}
         initialNumToRender={5}
-        windowSize={3}
+        windowSize={14}
       />
       
     </View>
